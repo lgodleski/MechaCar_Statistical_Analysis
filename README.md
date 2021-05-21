@@ -3,6 +3,7 @@
 ## Overview
 
 ## Linear Regression to Predict MPG
+<br> ![](Resources/summary_lm.png)
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
    - According to our results, the vehicle length, ground clearance, and intercept provide a non-random amount of variance to the mpg values. 
 
