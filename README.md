@@ -3,18 +3,19 @@
 ## Overview
 
 ## Linear Regression to Predict MPG
-<br> ![](Resources/summary_lm.png)
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+<br> ![](Resources/summary_lm.png) 
+<br>
+
    - According to our results, the vehicle length, ground clearance, and intercept provide a non-random amount of variance to the mpg values. 
 
-Is the slope of the linear model considered to be zero? Why or why not?
    - The slope of this linear model is not considered to be zero because a significant linear relationship exists between dependent and independent variables and therefore the dependent value (mpg) is not determined by random chance. 
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
    - This model does not predict the mpg of MechaCar prototypes effectively because the intercept is statistically significant which means there are other variables that contribute to the variation in mpg values that have not been included in our model. 
 
 ## Summary Statistics on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+<br> ![](Resources/total_summary.png)
+<br> ![](Resources/lot_summary.png)
+   - The current manufacturing data meets the design specification for all manufacturing lots as the total variance for all lots combined is 62.294, below the 100 pounds per square inch specification. However, when looking at the data per individual lot, we can see that Lot 3 has a variance of 170.286 pounds per square inch which exceeds the 100 pound maximum. 
 
 ## T-Tests on Suspension Coils
 briefly summarize your interpretation and findings for the t-test results (all three). Include screenshots of the t-test to support your summary.
