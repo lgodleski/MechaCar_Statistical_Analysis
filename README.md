@@ -3,7 +3,7 @@
 ## Overview
 
 ## Linear Regression to Predict MPG
-<br> ![](Resources/summary_lm.png) 
+![](Resources/summary_lm.png) 
 <br>
 
    - According to our results, the vehicle length, ground clearance, and intercept provide a non-random amount of variance to the mpg values. 
@@ -13,7 +13,7 @@
    - This model does not predict the mpg of MechaCar prototypes effectively because the intercept is statistically significant which means there are other variables that contribute to the variation in mpg values that have not been included in our model. 
 
 ## Summary Statistics on Suspension Coils
-<br> ![](Resources/total_summary.png)
+![](Resources/total_summary.png)
 <br> ![](Resources/lot_summary.png)
    - The current manufacturing data meets the design specification for all manufacturing lots as the total variance for all lots combined is 62.294, below the 100 pounds per square inch specification. However, when looking at the data per individual lot, we can see that Lot 3 has a variance of 170.286 pounds per square inch which exceeds the 100 pound maximum. 
 
