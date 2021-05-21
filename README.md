@@ -18,10 +18,10 @@
 
 ## T-Tests on Suspension Coils
 ![](Resources/t.test_lot1.png)
-   - When looking at the t-test results for Lot 1, we can see that the p-value is equal to 1 because the mean PSI for Lot 1 is exactly 1500 pounds, the same as the population mean that we compared it to. Therefore, we can state that the two means are statistically similar. 
-<br>![](Resources/t.test_lot2.png)
-   - The t-test results for Lot 2 provide a p-value of .6072 which is above our significance level of .05. Therefore, we can state that the two means are statistically similar.
-<br> ![](Resources/t.test_lot3.png)
+   - When looking at the t-test results for Lot 1, we can see that the p-value is equal to 1 because the mean PSI for Lot 1 is exactly 1500 pounds, the same as the population mean that we compared it to. Therefore, we can state that the two means are statistically similar. <br><br>
+![](Resources/t.test_lot2.png)
+   - The t-test results for Lot 2 provide a p-value of .6072 which is above our significance level of .05. Therefore, we can state that the two means are statistically similar. <br><br>
+![](Resources/t.test_lot3.png)
    - The t-test results for Lot 3 provide a p-value of .04168 which is below our signficance level of .05. Therefore, we have sufficient evidence to reject the null hypothesis and we can state that the two means are statistically different. 
 
 ## Study Design: MechaCar vs. Competition
